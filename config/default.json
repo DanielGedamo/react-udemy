@@ -1,4 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://daniel:daniel@cluster1.tvrczuo.mongodb.net/?retryWrites=true&w=majority"
+    "mongoURL":"mongodb+srv://daniel:danielgadamo@cluster1.tvrczuo.mongodb.net/?retryWrites=true&w=majority"
     
 }

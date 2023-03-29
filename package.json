@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start":"node server",
+    "server":"nodemon server"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +23,5 @@
     "concurrently": "^7.6.0",
     "nodemon": "^2.0.21"
   },
-  "description": ""
+  "description":""
 }
