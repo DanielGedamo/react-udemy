@@ -5,6 +5,8 @@ const app = express()
 
 connectDB()
 
+app.use(express.json({extended: false}))
+
 app.use("/api/users", require("./ROUTS/api/users"))
 app.use("/api/profile", require("./ROUTS/api/profile"))
 app.use("/api/posts", require("./ROUTS/api/posts"))
