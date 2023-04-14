@@ -18,7 +18,7 @@ const mongoose = require("mongoose")
         type:String
     },
     date:{
-        type:date,
+        type:Date,
         default: Date.now
     }
  });
